@@ -1,0 +1,108 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    height: 2rem;
+    border-radius: 50%;
+    
+
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.navbar {
+    background-color: transparent;
+    margin-top: 0rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nav-link {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 1rem 1.5rem;
+    color: black;
+}
+
+.nav-item {
+    margin-right: 1rem;
+}
+
+.nav-link:hover {
+    color: rgb(174, 0, 255);
+}
+
+strong {
+    color: purple;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+@media screen and (max-width: 1000px) {
+    .row.flex-lg-row-reverse.align-items-center {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .col-10.col-sm-8.col-lg-6 {
+        margin: 0 auto;
+    }
+}
+
+.about {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+}
+
+.profile-pic {
+    float: left;
+    margin-top: 9px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    border-radius: 0;
+}
+
+
+.container.col-xxl-8.px-4.py-5 {
+    margin-top: 50px;
+}
+
+
+.resume {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+
+}
+
+#resume{
+ width: 100%;
+   
+}
+
+.my-resume{
+    border-radius: 0%;
+}
+
+.my-portfolio{
+    border-radius: 0%;
+}
